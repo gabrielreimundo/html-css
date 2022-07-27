@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/PEQUENA.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/MEDIA.png" type="image/png">
+        <img src="imagens/GRANDE.png" alt="imagen flexivel">
+    </picture>
+    <h1>Audios</h1>
+    <audio src="media/Cattle - Telecasted (1).mp3" controls autoplay></audio>
+    <p>Foi o melhor que achei na biblioteca sem direitos autorais do youtube,mas sabe essa musica não é nada ruim</p>
+    <h2>outra forma de adicionar audio</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Cattle - Telecasted (1).mp3" type="audio/mpeg">
+        <source src="media/Cattle - Telecasted (1).ogg" type="audio/ogg">
+        <source src="media/Cattle - Telecasted (1).wav" type="audio/wav">
+        <p>seu navegador nao consegue reproduzir audio <a href="media/Cattle - Telecasted (1).mp3"> clique aqui para baixar o arquivo mp3</a></p>
+        <!-- dessa forma para adicionar varios tipos de arquivos de audio caso mp3 não seja compativel como navegador do usuario, ou talvez por qualquer outro motivo, EVITE AO MAXIMO por arquivo wav pq são muito pesados-->
+    </audio>
+</body>
+</html>

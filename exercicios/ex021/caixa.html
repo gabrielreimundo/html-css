@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            background-color: darkorchid;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(232, 185, 255);
+            padding: 5px;
+            margin: 10px;
+            border-style:solid;
+            border-color: rgb(75, 10, 84);
+            text-align: center;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px 5px 5px 5px;/*border-radius para deixar redondin*/
+        }
+        nav{
+            background-color: darkmagenta;
+            padding: 3px;
+            margin: 10px;
+            text-align: center;
+            border-style: solid;
+            border-color: rgb(105, 10, 105);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px 5px 5px 5px;
+        }
+        nav > a{
+            margin-right: 30px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        nav > a:hover{
+            color: gold;
+        }
+        main{
+            background-color: rgb(232, 185, 232);
+            padding: 5px;
+            margin: 10px;
+            border-style:solid ;
+            border-color: rgb(75, 10, 84);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px 5px 5px 5px;
+        }
+        aside{
+            padding: 3px;
+            text-align: center;
+            background-color: rgb(255, 91, 255);
+            width: 400px;
+            margin: auto;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px 5px 5px 5px;
+        }
+        article{
+            text-align: justify;
+            background-color: rgba(192, 151, 242, 0.611);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            padding: 4px;
+            text-align: center;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px 5px 5px 5px;}
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 15px;
+            background-color: rgb(22, 6, 22);
+            border-radius: 50px;
+            margin: auto;
+        }
+        div#bola > p{
+            display: block;
+            color: aliceblue;
+            text-align: center;
+            padding: 30px;}
+
+
+    </style>
+</head>
+<body>
+    <header><!--cabesalho-->
+        <h1>Mein site</h1>
+        <nav>
+            <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        
+        </nav>
+    </header>
+    <main><!--conteudo principal-->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+          <article>
+            <h2>Noticias</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse autem aperiam error doloribus consectetur animi perspiciatis sunt, fugit tempore expedita id unde quibusdam adipisci iste odit. Porro voluptatibus commodi nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt officia placeat provident illum nostrum et perferendis! Est quod, aut itaque velit officiis, minus repellendus reiciendis aspernatur quis accusamus autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur modi nemo deleniti sed dignissimos quia, minima nam quae perspiciatis deserunt, porro fugiat commodi laboriosam ipsum atque repellat sequi? Tenetur, temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id dicta voluptatibus sequi pariatur consectetur quis accusantium eius, iste tempore voluptates animi natus? Molestiae quam ipsum doloribus tempora commodi fuga!</p>
+            <h3>Guten morgen</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui magnam hic nisi nulla, quia laboriosam earum fuga sequi. Recusandae autem cupiditate quibusdam deleniti aliquid excepturi odit molestiae enim quisquam doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam alias voluptates iusto consequuntur blanditiis! Iusto culpa officiis ut vel consectetur. Dolore laboriosam distinctio tenetur assumenda dicta, reiciendis molestias a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora consequatur ullam quas assumenda! Possimus eveniet, voluptatum sit dolor, veritatis eligendi modi sequi, alias similique asperiores excepturi voluptatem cumque! Itaque.
+            </p>
+            <aside>
+                Artigo escrito por lorem
+            </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer><!--rodape-->
+        <p>Desenvolvido pelo gabriel</p>
+    </footer>
+    <div id="bola"> <p>My egg</p></div>
+    
+</body>
+</html>
