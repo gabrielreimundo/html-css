@@ -1,2 +1,4 @@
 # html-css
- Meus estudos de HTML e CSS
+Olá
+
+ Sou Gabriel Reimundo e aqui estão meus estudos de HTML e CSS
