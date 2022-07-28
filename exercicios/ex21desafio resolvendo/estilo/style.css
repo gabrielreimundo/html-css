@@ -159,7 +159,7 @@ aside> h3{
 }
 aside ul{
     list-style-type: '\2714\00A0\00A0';/*emoji, nao compativel com todos os navegadores*/
-    list-style-position: inside;
+    /*list-style-position: inside;*/
     columns: 2;/*para dividir a lista*/
     color: var(--cor4);
     
