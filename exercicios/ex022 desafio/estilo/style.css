@@ -53,6 +53,7 @@ section{
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;/*gostei nn, acho que essa proposta é melhor apenas no titulo msm*/
+    /*font-size: clamp(3em, 5vw, 5em)outro jeito*/
 }
 
 section.normal{
