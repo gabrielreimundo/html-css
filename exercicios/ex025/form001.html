@@ -12,14 +12,21 @@
     </style>
 </head>
 <body>
-    <h1>Meu primeiro formulario</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <h1>Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome">></p>
         <p><label for="isobrenome">Sobrenome:</label>
              <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
-    
+    <!--
+        label é importante para fazer a relação entre o nome e o input
+        method=post é um metodo que tira os dados capturados pelo formulario do link que aparece na barra de pesquisa apos o envio, não é 100% seguro porque os dados ainda aparecem no devtools, para tornar 100% seguro é necessario aprender, mais sobre https
+        O metodo get é usado quando os dados capturados pelo formularios não são sensiveis, e torna o link compartilhavel
+        O metodo get só suporta 3 mil letras, e não deve ser usado quando os formulario enviam arquivos.
+
+    -->
+
 </body>
 </html>
