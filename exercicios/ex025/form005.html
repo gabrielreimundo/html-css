@@ -9,18 +9,31 @@
 <body>
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="m" checked><label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" value="f"><label for="isxfem">Femea</label> <br>
+            <!--
+                input radio temque ter todos o mesmo nome porque apenas 1 pode ser escolhido, e o id temque ser diferente para o label funcionar
+            -->
+        </fieldset>
+        <fieldset>
             <legend>
                 Esportes favoritos
             </legend>
-            <input type="checkbox" name="esfut" id="iesfut"> Futebol
-            <input type="checkbox" name="esfut" id="iesfut"> Basquete
-            <input type="checkbox" name="esfut" id="iesfut"> Natação
-            <input type="checkbox" name="esfut" id="iesfut"> Tenis
+            <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut">Futebol </label><br>
+
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação </label><br>
+
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tenis </label><br>
+
         </fieldset>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+        <!--o atributo "checked" serve para ja deixar marcado quando o usuario chegar-->
 
     </form>
     
